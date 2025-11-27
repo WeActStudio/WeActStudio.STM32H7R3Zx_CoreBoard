@@ -1,0 +1,10 @@
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:250:11:USBD_MSC_DeviceDescriptor	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:263:11:USBD_MSC_LangIDStrDescriptor	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:276:11:USBD_MSC_ProductStrDescriptor	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:288:11:USBD_MSC_ManufacturerStrDescriptor	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:301:11:USBD_MSC_SerialStrDescriptor	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:322:11:USBD_MSC_ConfigStrDescriptor	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:334:11:USBD_MSC_InterfaceStrDescriptor	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:347:11:USBD_MSC_USR_BOSDescriptor	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:360:13:Get_SerialNum	2
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Appli/USB_DEVICE/App/usbd_desc.c:386:13:IntToUnicode	3

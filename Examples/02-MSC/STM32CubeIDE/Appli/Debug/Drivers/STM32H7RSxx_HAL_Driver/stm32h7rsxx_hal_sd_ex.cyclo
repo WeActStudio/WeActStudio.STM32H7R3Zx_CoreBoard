@@ -1,0 +1,9 @@
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:82:19:HAL_SDEx_DMALinkedList_BuildNode	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:98:19:HAL_SDEx_DMALinkedList_InsertNode	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:113:19:HAL_SDEx_DMALinkedList_RemoveNode	2
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:131:19:HAL_SDEx_DMALinkedList_LockNode	2
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:149:19:HAL_SDEx_DMALinkedList_UnlockNode	2
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:167:19:HAL_SDEx_DMALinkedList_EnableCircularMode	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:180:19:HAL_SDEx_DMALinkedList_DisableCircularMode	1
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:199:19:HAL_SDEx_DMALinkedList_ReadBlocks	8
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Drivers/STM32H7RSxx_HAL_Driver/Src/stm32h7rsxx_hal_sd_ex.c:294:19:HAL_SDEx_DMALinkedList_WriteBlocks	8

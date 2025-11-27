@@ -1,0 +1,7 @@
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:86:20:USBD_CtlSendData	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:114:20:USBD_CtlContinueSendData	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:131:20:USBD_CtlPrepareRx	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:159:20:USBD_CtlContinueRx	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:173:20:USBD_CtlSendStatus	16	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:190:20:USBD_CtlReceiveStatus	16	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:208:10:USBD_GetRxCount	16	static

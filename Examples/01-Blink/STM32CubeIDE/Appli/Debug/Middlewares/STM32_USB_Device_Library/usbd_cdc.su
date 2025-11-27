@@ -1,0 +1,15 @@
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:290:16:USBD_CDC_Init	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:391:16:USBD_CDC_DeInit	16	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:435:16:USBD_CDC_Setup	32	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:539:16:USBD_CDC_DataIn	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:580:16:USBD_CDC_DataOut	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:606:16:USBD_CDC_EP0_RxReady	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:632:17:USBD_CDC_GetFSCfgDesc	32	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:663:17:USBD_CDC_GetHSCfgDesc	32	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:694:17:USBD_CDC_GetOtherSpeedCfgDesc	32	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:725:10:USBD_CDC_GetDeviceQualifierDescriptor	16	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:738:9:USBD_CDC_RegisterInterface	16	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:766:9:USBD_CDC_SetTxBuffer	32	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:789:9:USBD_CDC_SetRxBuffer	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:816:9:USBD_CDC_TransmitPacket	24	static
+H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:856:9:USBD_CDC_ReceivePacket	24	static
