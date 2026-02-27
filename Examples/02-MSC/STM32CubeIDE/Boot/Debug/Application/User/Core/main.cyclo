@@ -1,6 +1,0 @@
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Boot/Core/Src/main.c:59:16:app_IsReady	5
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Boot/Core/Src/main.c:78:16:JumpToApplication	5
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Boot/Core/Src/main.c:132:5:main	6
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Boot/Core/Src/main.c:206:6:SystemClock_Config	4
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Boot/Core/Src/main.c:280:13:MPU_Config	2
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/02-MSC/Boot/Core/Src/main.c:331:6:Error_Handler	1

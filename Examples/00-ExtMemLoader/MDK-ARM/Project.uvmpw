@@ -5,7 +5,7 @@
 
   <Header>### uVision Project, (C) Keil Software</Header>
 
-  <WorkspaceName>H:\Work\WeAct-STM32H7R3Zx_CoreBoard\Test\00-ExtMemLoader\MDK-ARM\Project.uvmpw</WorkspaceName>
+  <WorkspaceName>E:\WeActStudio\Products\2025\00-OVER\WeAct-STM32H7R3Zx_CoreBoard\Datalink\Examples\00-ExtMemLoader\MDK-ARM\Project.uvmpw</WorkspaceName>
 
   <project>
     <PathAndName>.\ExtMemLoader\00-ExtMemLoader_ExtMemLoader.uvprojx</PathAndName>

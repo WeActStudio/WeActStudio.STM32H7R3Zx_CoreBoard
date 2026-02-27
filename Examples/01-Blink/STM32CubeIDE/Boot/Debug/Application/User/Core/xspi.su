@@ -1,3 +1,0 @@
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Boot/Core/Src/xspi.c:30:6:MX_XSPI1_Init	24	static
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Boot/Core/Src/xspi.c:74:6:HAL_XSPI_MspInit	184	static
-H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Boot/Core/Src/xspi.c:128:6:HAL_XSPI_MspDeInit	16	static

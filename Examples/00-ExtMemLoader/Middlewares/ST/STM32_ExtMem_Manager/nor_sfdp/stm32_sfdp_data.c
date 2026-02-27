@@ -1341,7 +1341,10 @@ SFDP_StatusTypeDef SFDP_CollectData(EXTMEM_DRIVER_NOR_SFDP_ObjectTypeDef *Object
     if (SFDP_PARAMID_BASIC_SPIPROTOCOL == sfdp_param_info[index].type)
     {
       /* Save data about the reset procedure */
-      Object->sfdp_private.Reset_info = JEDEC_Basic.Params.Param_DWORD.D16.SoftResetRescueSequence_Support;
+      if(JEDEC_Basic.Params.Param_DWORD.D16.SoftResetRescueSequence_Support)
+        Object->sfdp_private.Reset_info = JEDEC_Basic.Params.Param_DWORD.D16.SoftResetRescueSequence_Support;
+      else
+    	  Object->sfdp_private.Reset_info = 48;
     }
   }
 
@@ -1546,7 +1549,10 @@ SFDP_StatusTypeDef SFDP_BuildGenericDriver(EXTMEM_DRIVER_NOR_SFDP_ObjectTypeDef 
   (void) SAL_XSPI_MemoryConfig(&Object->sfdp_private.SALObject, PARAM_FLASHSIZE, &FlashSize);
 
   /* get the page size info */
-  Object->sfdp_private.PageSize = ((uint32_t)1u <<  JEDEC_Basic.Params.Param_DWORD.D11.PageSize);
+  if(JEDEC_Basic.Params.Param_DWORD.D11.PageSize != 0)
+	  Object->sfdp_private.PageSize = ((uint32_t)1u <<  JEDEC_Basic.Params.Param_DWORD.D11.PageSize);
+  else
+	  Object->sfdp_private.PageSize = 256;
 
   /* ---------------------------------------------------
    *  Set default command
@@ -1605,6 +1611,15 @@ SFDP_StatusTypeDef SFDP_BuildGenericDriver(EXTMEM_DRIVER_NOR_SFDP_ObjectTypeDef 
     JEDEC_Basic.Params.Param_DWORD.D10.MutliplierEraseTime *
     (JEDEC_Basic.Params.Param_DWORD.D11.ChipErase_TypicalTime_count + 1u) *
     chip_erase_unit[JEDEC_Basic.Params.Param_DWORD.D11.ChipErase_TypicalTime_units];
+
+  if (Object->sfdp_private.DriverInfo.EraseType1Timing == 0x0u)
+    Object->sfdp_private.DriverInfo.EraseType1Timing = 6144;
+  if (Object->sfdp_private.DriverInfo.EraseType2Timing == 0x0u)
+    Object->sfdp_private.DriverInfo.EraseType2Timing = 24000;
+  if (Object->sfdp_private.DriverInfo.EraseType3Timing == 0x0u)
+    Object->sfdp_private.DriverInfo.EraseType3Timing = 15360;
+  if (Object->sfdp_private.DriverInfo.EraseChipTiming == 0x0u)
+    Object->sfdp_private.DriverInfo.EraseChipTiming = 120000;
 
   /* ------------------------------------------------------
    *   WIP/WEL : write in progress/ write enable management
@@ -1669,8 +1684,9 @@ SFDP_StatusTypeDef SFDP_BuildGenericDriver(EXTMEM_DRIVER_NOR_SFDP_ObjectTypeDef 
   */
   else
   {
-    retr = EXTMEM_SFDP_ERROR_JEDECBASIC_D16;
-    goto error;
+//    retr = EXTMEM_SFDP_ERROR_JEDECBASIC_D16;
+//    goto error;
+	  Object->sfdp_private.DriverInfo.WriteWELCommand = SFDP_DRIVER_WRITE_ENABLE_06H_COMMAND;
   }
 
   if (0u != (Object->sfdp_private.Sfdp_table_mask & (uint32_t)SFDP_PARAMID_STATUS_CONTROL_CONFIG_REGISTER_MAP))
@@ -1743,8 +1759,11 @@ SFDP_StatusTypeDef SFDP_BuildGenericDriver(EXTMEM_DRIVER_NOR_SFDP_ObjectTypeDef 
     }
     else
     {
-      retr = EXTMEM_SFDP_ERROR_JEDECBASIC_D14;
-      goto error;
+//      retr = EXTMEM_SFDP_ERROR_JEDECBASIC_D14;
+//      goto error;
+      Object->sfdp_private.DriverInfo.ReadWIPCommand = SFDP_DRIVER_READ_STATUS_REGISTER_COMMAND;
+      Object->sfdp_private.DriverInfo.WIPPosition = 0u;
+      Object->sfdp_private.DriverInfo.WIPBusyPolarity = 0u;
     }
   }
 

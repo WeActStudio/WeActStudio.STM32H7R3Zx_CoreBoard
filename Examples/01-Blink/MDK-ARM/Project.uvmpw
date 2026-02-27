@@ -5,18 +5,16 @@
 
   <Header>### uVision Project, (C) Keil Software</Header>
 
-  <WorkspaceName>H:\Work\WeAct-STM32H7R3Zx_CoreBoard\Examples\01-Blink\MDK-ARM\Project.uvmpw</WorkspaceName>
+  <WorkspaceName>E:\WeActStudio\Products\2025\00-OVER\WeAct-STM32H7R3Zx_CoreBoard\Datalink\Examples\01-Blink\MDK-ARM\Project.uvmpw</WorkspaceName>
 
   <project>
     <PathAndName>.\Boot\01-Blink_Boot.uvprojx</PathAndName>
-    <NodeIsActive>1</NodeIsActive>
-    <NodeIsExpanded>1</NodeIsExpanded>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 
   <project>
     <PathAndName>.\Appli\01-Blink_Appli.uvprojx</PathAndName>
-    <NodeIsExpanded>1</NodeIsExpanded>
+    <NodeIsActive>1</NodeIsActive>
     <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
   </project>
 

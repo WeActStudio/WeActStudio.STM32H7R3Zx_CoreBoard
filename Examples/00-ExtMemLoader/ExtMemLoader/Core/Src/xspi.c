@@ -79,8 +79,8 @@ void HAL_XSPI_MspInit(XSPI_HandleTypeDef* xspiHandle)
   if(xspiHandle->Instance==XSPI1)
   {
   /* USER CODE BEGIN XSPI1_MspInit 0 */
-//		__HAL_RCC_XSPI1_FORCE_RESET();
-//    __HAL_RCC_XSPI1_RELEASE_RESET();
+	  __HAL_RCC_XSPI1_FORCE_RESET();
+    __HAL_RCC_XSPI1_RELEASE_RESET();
   /* USER CODE END XSPI1_MspInit 0 */
 
   /** Initializes the peripherals clock

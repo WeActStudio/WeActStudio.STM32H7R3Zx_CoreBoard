@@ -35,7 +35,7 @@
 		<link>
 			<name>Drivers/W25Qxx</name>
 			<type>2</type>
-			<location>H:/Work/WeAct-STM32H7R3Zx_CoreBoard/Examples/01-Blink/Drivers/BSP/W25Qxx</location>
+			<locationURI>PARENT-2-PROJECT_LOC/Drivers/BSP/W25Qxx</locationURI>
 		</link>
 		<link>
 			<name>Drivers/CMSIS/system_stm32h7rsxx.c</name>
